@@ -2,16 +2,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Operadores Aritm&eacute;meticos</title>
+		<title>Calculadora Aritm&eacute;metica</title>
 	</head>
 	<body>
 		<h1>Calculadora</h1>
 		<form action="resultado.php" method="post">
 			<select name="operador">
-				<option value="suma">Suma</option>
-				<option value="resta">Resta</option>
-				<option value="multiplicacion">Multiplicaci&oacute;n</option>
-				<option value="division">Divisi&oacute;n</option>
+				<option value="suma">+</option>
+				<option value="resta">-</option>
+				<option value="multiplicacion">x</option>
+				<option value="division">/</option>
 			</select><br />
 			Ingresa tu primer n&uacute;mero:<br />
 			<input type="text" name="valor1"><br />
